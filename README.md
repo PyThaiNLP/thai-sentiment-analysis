@@ -9,6 +9,8 @@ $ pip install https://github.com/PyThaiNLP/thai_sentiment_analysis/archive/maste
 
 ## Use
 
+Google Colab : https://colab.research.google.com/drive/17y4tc69O6Z-dr1LbgR5FlPYZK46xCKbY
+
 ```python
 from pythaisa import *
 datatrain=[("ฉันรักคุณ","love"),("ผมก็รักคุณเหมือนกัน","love"),("เกลียดคุณ","neg"),("เกลียดเหมือนกัน","neg")]
