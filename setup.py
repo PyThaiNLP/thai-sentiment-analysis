@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
 
 setup(
     name="pythaisa",
-    version="0.1.dev1",
+    version="0.2",
     description="Python Thai Sentiment Analysis",
     long_description=readme,
     long_description_content_type="text/markdown",
