@@ -14,9 +14,8 @@ class TestUM(unittest.TestCase):
         m=model(name="test",train_dataset=datatrain)
         m.train()
         self.assertIsNotNone(m.predict("ฉันรักคุณ"))
-
-    def test_load(self):
         self.assertIsNotNone(model(name="test"))
+        
 
 if __name__ == '__main__':
     unittest.main()
