@@ -1,0 +1,13 @@
+language: python
+dist: bionic
+python:
+- '3.6'
+before_install:
+- sudo rm -f /etc/boto.cfg
+install:
+- pip install -q .
+- pip install coveralls
+os:
+- linux
+script: coverage run --source=pythainlp setup.py test
+after_success: coveralls
