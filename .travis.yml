@@ -9,5 +9,5 @@ install:
 - pip install coveralls
 os:
 - linux
-script: coverage run --source=pythainlp setup.py test
+script: coverage run --source=pythaisa setup.py test
 after_success: coveralls
