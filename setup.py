@@ -15,6 +15,7 @@ setup(
     author_email="wannaphong@kkumail.com",
     url="https://github.com/PyThaiNLP/thai_sentiment_analysis",
     packages=find_packages(),
+    test_suite="tests",
     python_requires=">=3.6",
     include_package_data=True,
     install_requires=["pythainlp","nltk"],

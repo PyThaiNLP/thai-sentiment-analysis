@@ -1,4 +1,8 @@
 # Python Thai Sentiment Analysis (PyThaiSA)
+
+[![Build Status](https://travis-ci.org/PyThaiNLP/thai-sentiment-analysis.svg?branch=master)](https://travis-ci.org/PyThaiNLP/thai-sentiment-analysis)
+
+
 Python Thai sentiment analysis **(For Dev only)**
 
 ## Install
