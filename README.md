@@ -24,3 +24,28 @@ m.train()
 print(m.predict("ฉันรักคุณ"))
 ```
 
+## Docs
+
+```python
+Model(name,model_type="naive_bayes",train_dataset=None,test_dataset=None,
+path=None,features=basic_features)
+```
+
+- ```name``` is model name.
+- ```model_type``` is type of model. (Now,)
+- ```train_dataset``` is train dataset. ```[(text,tag),...]```
+- ```test_dataset``` is test dataset. ```[(text,tag),...]```
+- ```path``` is model path.
+- ```features``` is features function. (function input string and output is dict)
+
+### Trian
+
+```python
+Model().train()
+```
+
+### Predict
+
+```python
+Model().predict(text)
+```
